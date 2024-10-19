@@ -33,7 +33,8 @@ export default function Home() {
             <p>pocket.</p>
           </div>
           <p className="text-gray-400 font-medium">It makes it easy to communicate and ask for help.</p>
-            <button className="mt-4 px-6 py-2 bg-red-500 text-white font-bold rounded-full hover:bg-red-600">
+            
+            <button className="mt-4 px-7 py-3 bg-red-500 text-white font-bold rounded-full hover:bg-red-600">
               Continue as Admin
             </button>
               <a href="#" className="block mt-4 text-blue-500 underline hover:text-blue-700 mx-12">
@@ -57,10 +58,8 @@ export default function Home() {
         </div>
         
 
-
-
         <div className="relative w-[30%] right-[20%]">
-          <div className=" w-[80%] h-[auto] absolute  top-[20%]">
+          <div className=" w-full h-[100px] absolute  top-[3%] left-[-30%]">
             <Image
               src={mapImage} 
               alt="Map"
