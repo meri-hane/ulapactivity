@@ -1,5 +1,6 @@
 import Image from "next/image";
 import i7 from "../../app/assets/img/IntelliSeven_Logo 1.png"; // Ensure the path is correct
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -33,9 +34,12 @@ export default function Login() {
           className="border border-gray-300 rounded-full p-2 mb-4 w-full text-gray-800"
         />
         
-        <button className="bg-red-500 text-white font-bold py-2 px-4 rounded-full w-full hover:bg-red-600 transition duration-300">
+        <Link href="/homechat">
+        <button className="bg-red-500 text-white font-bold py-3 px-20 rounded-full w-full hover:bg-red-600 transition duration-300">
           Continue
         </button>
+        </Link>
+
 
         <div className="items-center mt-4">
           <input type="checkbox" id="keepSignedIn" className="mr-2" />

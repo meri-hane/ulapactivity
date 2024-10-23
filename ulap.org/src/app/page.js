@@ -45,10 +45,10 @@ export default function Home() {
                 Switch Account
               </a>
 
-          <div className="h-10" /> {/* Add a spacer div with a height of 10 */}
+          <div className="h-10" /> 
           <div className="flex gap-4 mt-6">
           <Image
-              src={appStore} // Replace with your App Store image variable
+              src={appStore} 
               alt="App Store"
               className="h-[80px] w-[200px] object-contain"
             />
