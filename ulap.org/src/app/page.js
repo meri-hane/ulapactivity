@@ -4,6 +4,8 @@ import mapImage from "../app/assets/img/map.png";
 import chatImage from "../app/assets/img/chat.png";
 import googleStore from "../app/assets/img/google_store.png";
 import appStore from "../app/assets/img/apple_store.png";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -34,9 +36,11 @@ export default function Home() {
           </div>
           <p className="text-gray-400 font-medium">It makes it easy to communicate and ask for help.</p>
             
+          <Link href="/login">
             <button className="mt-4 px-7 py-3 bg-red-500 text-white font-bold rounded-full hover:bg-red-600">
               Continue as Admin
             </button>
+            </Link>
               <a href="#" className="block mt-4 text-blue-500 underline hover:text-blue-700 mx-12">
                 Switch Account
               </a>
